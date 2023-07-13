@@ -1,0 +1,745 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>乐购(LG.COM)-正品低价、品质保障、配送及时、轻松购物！</title>
+    <link rel="shortcut icon" href="./favicon.ico" />
+    <!-- 引用字体图标 -->
+    <link rel="stylesheet" href="./fonts/iconfont.css" />
+    <!-- 网站说明 -->
+    <meta
+      name="description"
+      content="乐购商城-专业的综合网上购物商城,销售家电、数码通讯、电脑、家居百货、服装服饰、母婴、图书、食品等数万个品牌优质商品.便捷、诚信的服务，为您提供愉悦的网上购物体验!"
+    />
+    <!-- 关键字 -->
+    <meta
+      name="keywords"
+      content="网上购物,网上商城,手机,笔记本,电脑,MP3,CD,VCD,DV,相机,数码,配件,手表,存储卡"
+    />
+    <link rel="stylesheet" href="css/base.css" />
+    <link rel="stylesheet" href="css/common.css" />
+    <link rel="stylesheet" href="css/index.css" />
+    <!-- 引入js -->
+    <!-- animation必须写在首页js上面 -->
+    <script src="js/animation.js"></script>
+    <!-- 引入首页js文件 -->
+    <script src="js/index.js"></script>
+    <!-- 引入倒计时js文件 -->
+    <!-- <script src="js/count-down.js"></script> -->
+  </head>
+  <body>
+    <!-- 快捷导航模块 start-->
+    <section class="shortcut">
+      <div class="w">
+        <ul class="position">
+          <li><a href="#">重庆</a></li>
+        </ul>
+        <ul class="option">
+          <li>乐购欢迎您！</li>
+          <li>
+            <a href="#">请登录</a>&nbsp;&nbsp;<a
+              href="register.html"
+              class="red"
+              >免费注册</a
+            >
+          </li>
+          <li><a href="#">我的订单</a></li>
+          <li>|</li>
+          <li><a href="#">我的乐购</a></li>
+          <li>|</li>
+          <li><a href="#">乐购会员</a></li>
+          <li>|</li>
+          <li class="buy">
+            <a href="#" class="red"
+              >企业采购
+              <div class="firm" style="display: none">
+                <ul>
+                  <li><a href="#">企业购</a></li>
+                  <li><a href="#">公共采购</a></li>
+                  <li><a href="#">工业品</a></li>
+                  <li><a href="#">商用场景馆</a></li>
+                  <li><a href="#">礼品卡</a></li>
+                  <li><a href="#">微信企业购</a></li>
+                  <li><a href="#">工品优选</a></li>
+                  <li><a href="#">乐购锦礼</a></li>
+                </ul>
+              </div>
+            </a>
+          </li>
+          <li>|</li>
+          <li><a href="#">关注乐购</a></li>
+          <li>|</li>
+          <li><a href="#">客户服务</a></li>
+          <li>|</li>
+          <li><a href="#">网站导航</a></li>
+        </ul>
+      </div>
+    </section>
+    <script>
+      let buy = document.querySelector('.buy');
+
+      buy.onmouseover = function () {
+        buy.children[1].style.display = 'block';
+      };
+      buy.onmouseout = function () {
+        buy.children[1].style.display = 'none';
+      };
+    </script>
+    <!-- 快捷导航模块end -->
+    <!-- header头部模块start -->
+    <header class="head">
+      <div class="w">
+        <div class="logo">
+          <h1>
+            <a href="index.html" title="乐购商城"
+              >乐购商城<img src="img/logo.png" alt=""
+            /></a>
+          </h1>
+        </div>
+        <div class="search">
+          <input type="search" name="" id="" placeholder="iPhone14" />
+          <button></button>
+        </div>
+        <div class="hotwords">
+          <a href="#" class="red">乐购首发</a>
+          <a href="#">亿元优惠</a>
+          <a href="#">9.9元团购</a>
+          <a href="#">美满99减30</a>
+          <a href="#">办公用品</a>
+          <a href="#">电脑</a>
+          <a href="#">通信</a>
+        </div>
+        <div class="shopcar">
+          <a href="#">我的购物车</a>
+          <i class="count">8</i>
+        </div>
+      </div>
+    </header>
+    <!-- header头部模块end -->
+    <!-- nav导航栏模块start -->
+    <nav class="nav">
+      <div class="w">
+        <div class="navitems">
+          <ul>
+            <li><a href="#">全球购</a></li>
+            <li><a href="#">优惠券</a></li>
+            <li><a href="#">乐购家电</a></li>
+            <li><a href="#">秒杀</a></li>
+            <li><a href="#">拍卖</a></li>
+            <li><a href="#">团购</a></li>
+            <li><a href="#">品牌闪购</a></li>
+            <li><a href="#">乐购生鲜</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- nav导航栏模块end -->
+    <!-- main主体模块start -->
+    <div class="w">
+      <div class="mains">
+        <div class="dropdown">
+          <div class="dd">
+            <ul>
+              <li><a href="#">家用电器</a></li>
+              <li><a href="#">手机、数码、通信</a></li>
+              <li><a href="#">电脑、办公</a></li>
+              <li><a href="#">家居、家具、家装、厨具</a></li>
+              <li><a href="#">男装、女装、童装、内衣</a></li>
+              <li><a href="#">个户化妆、清洁用品、宠物</a></li>
+              <li><a href="#">鞋靴、箱包、珠宝、奢侈品</a></li>
+              <li><a href="#">运动户外、钟表</a></li>
+              <li><a href="#">汽车、汽车用品</a></li>
+              <li><a href="#">母婴、玩具乐器</a></li>
+              <li><a href="#">食品、酒类、生鲜、特产</a></li>
+              <li><a href="#">医药保健</a></li>
+              <li><a href="#">图书、音像、电子书</a></li>
+              <li><a href="#">彩票、旅行、充值、票务</a></li>
+              <li><a href="#">理财、众筹、白条、保险</a></li>
+              <li><a href="#">工业品</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="main">
+          <div class="focus">
+            <a href="javascript:;" class="arrow-l"> &lt; </a>
+            <a href="javascript:;" class="arrow-r"> &gt; </a>
+            <!-- 核心滚动区域 -->
+            <ul>
+              <li>
+                <a href="#"><img src="img/f1.jpg" alt="" /></a>
+              </li>
+              <li>
+                <a href="#"><img src="img/f2.jpg" alt="" /></a>
+              </li>
+              <li>
+                <a href="#"><img src="img/f3.jpg" alt="" /></a>
+              </li>
+              <li>
+                <a href="#"><img src="img/f4.jpg" alt="" /></a>
+              </li>
+              <li>
+                <a href="#"><img src="img/f5.jpg" alt="" /></a>
+              </li>
+              <li>
+                <a href="#"><img src="img/f6.jpg" alt="" /></a>
+              </li>
+            </ul>
+            <!-- 小圆圈 -->
+            <ol class="circle"></ol>
+          </div>
+          <div class="newsflash">
+            <div class="news">
+              <div class="news_hd">
+                <h4>乐购快报</h4>
+                <a href="#" class="more">更多 </a>
+              </div>
+              <div class="news_bd">
+                <ul>
+                  <li>
+                    <a href="news.html"
+                      ><span>热门</span>
+                      男生喜欢收到什么样的礼物，看完这篇文章你就知道了</a
+                    >
+                  </li>
+                  <li>
+                    <a href="#"
+                      ><span>热评</span
+                      >自驱牵引不费力，给爸妈用以内洗地机更省心</a
+                    >
+                  </li>
+                  <li>
+                    <a href="#"
+                      ><span>热门</span
+                      >缓解肌肤毛孔粗大问题就选天气丹补水保湿面膜</a
+                    >
+                  </li>
+                  <li>
+                    <a href="#"
+                      ><span>热评</span
+                      >伊利金典高品质鲜牛奶测评：一口喝到多种营养</a
+                    >
+                  </li>
+                  <li>
+                    <a href="#"><span>热门</span>每日享折扣品优品质优</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="lifeservice">
+              <ul>
+                <li>
+                  <!-- a是行内元素，不可以直接设置宽度和高度 -->
+                  <a href="#">
+                    <i class="service_ico">
+                      <img src="img/礼品卡.png" alt="" />
+                      <!-- hover态 -->
+                      <!-- <img class="hover" src="img/礼品卡1.png" alt="" /> -->
+                    </i>
+                    <span class="service">礼品卡</span>
+                  </a>
+                </li>
+                <li>
+                  <!-- a是行内元素，不可以直接设置宽度和高度 -->
+                  <a href="#">
+                    <i class="service_ico">
+                      <img src="img/企业购.png" alt="" />
+                      <!-- hover态 -->
+                      <!-- <img class="hover" src="img/礼品卡1.png" alt="" /> -->
+                    </i>
+                    <span class="service">企业购</span>
+                  </a>
+                </li>
+                <li>
+                  <!-- a是行内元素，不可以直接设置宽度和高度 -->
+                  <a href="#">
+                    <i class="service_ico">
+                      <img src="img/话费.png" alt="" />
+                      <!-- hover态 -->
+                      <!-- <img class="hover" src="img/礼品卡1.png" alt="" /> -->
+                    </i>
+                    <span class="service">话费</span>
+                  </a>
+                </li>
+                <li>
+                  <!-- a是行内元素，不可以直接设置宽度和高度 -->
+                  <a href="#">
+                    <i class="service_ico">
+                      <img src="img/游戏.png" alt="" />
+                      <!-- hover态 -->
+                      <!-- <img class="hover" src="img/礼品卡1.png" alt="" /> -->
+                    </i>
+                    <span class="service">游戏</span>
+                  </a>
+                </li>
+                <li>
+                  <!-- a是行内元素，不可以直接设置宽度和高度 -->
+                  <a href="#">
+                    <i class="service_ico">
+                      <img src="img/白条.png" alt="" />
+                      <!-- hover态 -->
+                      <!-- <img class="hover" src="img/礼品卡1.png" alt="" /> -->
+                    </i>
+                    <span class="service">白条</span>
+                  </a>
+                </li>
+                <li>
+                  <!-- a是行内元素，不可以直接设置宽度和高度 -->
+                  <a href="#">
+                    <i class="service_ico">
+                      <img src="img/加油卡.png" alt="" />
+                      <!-- hover态 -->
+                      <!-- <img class="hover" src="img/礼品卡1.png" alt="" /> -->
+                    </i>
+                    <span class="service">加油卡</span>
+                  </a>
+                </li>
+                <li>
+                  <!-- a是行内元素，不可以直接设置宽度和高度 -->
+                  <a href="#">
+                    <i class="service_ico">
+                      <img src="img/五金城.png" alt="" />
+                      <!-- hover态 -->
+                      <!-- <img class="hover" src="img/礼品卡1.png" alt="" /> -->
+                    </i>
+                    <span class="service">五金城</span>
+                  </a>
+                </li>
+                <li>
+                  <!-- a是行内元素，不可以直接设置宽度和高度 -->
+                  <a href="#">
+                    <i class="service_ico">
+                      <img src="img/机票.png" alt="" />
+                      <!-- hover态 -->
+                      <!-- <img class="hover" src="img/礼品卡1.png" alt="" /> -->
+                    </i>
+                    <span class="service">机票</span>
+                  </a>
+                </li>
+                <li>
+                  <!-- a是行内元素，不可以直接设置宽度和高度 -->
+                  <a href="#">
+                    <i class="service_ico">
+                      <img src="img/火车票.png" alt="" />
+                      <!-- hover态 -->
+                      <!-- <img class="hover" src="img/礼品卡1.png" alt="" /> -->
+                    </i>
+                    <span class="service">火车票</span>
+                  </a>
+                </li>
+                <li>
+                  <!-- a是行内元素，不可以直接设置宽度和高度 -->
+                  <a href="#">
+                    <i class="service_ico">
+                      <img src="img/电影票.png" alt="" />
+                      <!-- hover态 -->
+                      <!-- <img class="hover" src="img/礼品卡1.png" alt="" /> -->
+                    </i>
+                    <span class="service">电影票</span>
+                  </a>
+                </li>
+                <li>
+                  <!-- a是行内元素，不可以直接设置宽度和高度 -->
+                  <a href="#">
+                    <i class="service_ico">
+                      <img src="img/酒店.png" alt="" />
+                      <!-- hover态 -->
+                      <!-- <img class="hover" src="img/礼品卡1.png" alt="" /> -->
+                    </i>
+                    <span class="service">酒店</span>
+                  </a>
+                </li>
+                <li>
+                  <!-- a是行内元素，不可以直接设置宽度和高度 -->
+                  <a href="#">
+                    <i class="service_ico">
+                      <img src="img/云主机.png" alt="" />
+                      <!-- hover态 -->
+                      <!-- <img class="hover" src="img/礼品卡1.png" alt="" /> -->
+                    </i>
+                    <span class="service">云主机</span>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- main主体模块end -->
+    <!-- 秒杀seckill模块start -->
+
+    <div class="seckill w">
+      <a href="#" class="seckill-hd">
+        <div class="countdown">乐购秒杀</div>
+        <div class="countdown-desc"><strong>1月1日零</strong>点场，距结束</div>
+        <span class="day">1</span>
+        <span class="hour">1</span>
+        <span class="minute">2</span>
+        <span class="second">3</span>
+      </a>
+      <div class="seckill-bd">
+        <a
+          href="#"
+          title="上鲜 白羽鸡 鸡大胸 2kg/袋 冷冻 圈养 出口日本级 健身鸡胸肉健身餐 鸡肉 健康轻食代餐 健身食品清真食品"
+          ><img src="img/meat.webp" alt="" />
+          <h6>
+            上鲜 白羽鸡 鸡大胸 2kg/袋 冷冻 圈养 出口日本级 健身鸡胸肉健身餐 鸡肉
+            健康轻食代餐 健身食品清真食品
+          </h6>
+          <p class="seckill-price">￥41.90</p>
+        </a>
+
+        <a
+          href="#"
+          title="繁花似锦 广西武鸣沃柑 5斤橘子 桔子 柑橘 新鲜水果当季水果"
+          ><img src="img/orange.webp" alt="" />
+          <h6>繁花似锦 广西武鸣沃柑 5斤橘子 桔子 柑橘 新鲜水果当季水果</h6>
+          <p class="seckill-price">￥21.90</p></a
+        >
+
+        <a
+          href="#"
+          title="UGG 2022冬季新款男士休闲舒适经典低筒迷你短靴雪地靴 1119392 BLK | 黑色 42"
+          ><img src="img/shoes.webp" alt="" />
+          <h6>
+            UGG 2022冬季新款男士休闲舒适经典低筒迷你短靴雪地靴 1119392 BLK |
+            黑色 42
+          </h6>
+          <p class="seckill-price">￥459.00</p></a
+        >
+
+        <a
+          href="#"
+          title="殴姆珑海联芯 【无创血糖】智能手环血压心电图血氧心率手腕表打呼噜低氧唤醒提醒HRV心脏房颤 打鼾唤醒 【一键测量+无创血糖+胸贴版】黑色皮表带"
+          ><img src="img/watches.webp" alt="" />
+          <h6>
+            殴姆珑海联芯
+            【无创血糖】智能手环血压心电图血氧心率手腕表打呼噜低氧唤醒提醒HRV心脏房颤
+            打鼾唤醒 【一键测量+无创血糖+胸贴版】黑色皮表带
+          </h6>
+          <p class="seckill-price">￥498.00</p></a
+        >
+
+        <a
+          href="#"
+          title="雾卡 加绒卫衣男帽衫男士连帽套头外套加绒青少年情侣宽松大码运动上衣学生保暖衣 彩W白色 XL 建议115-130斤"
+          ><img src="img/clothes.webp" alt="" />
+          <h6>
+            雾卡
+            加绒卫衣男帽衫男士连帽套头外套加绒青少年情侣宽松大码运动上衣学生保暖衣
+            彩W白色 XL 建议115-130斤
+          </h6>
+          <p class="seckill-price">￥69.00</p></a
+        >
+      </div>
+    </div>
+    <script src="js/count-down.js"></script>
+    <!-- 秒杀seckill 模块end -->
+    <!-- recom推荐模块start -->
+    <section class="recommend">
+      <div class="w">
+        <h3>为你推荐</h3>
+        <div class="recom-hd">
+          <ul>
+            <li class="spc">
+              <div class="head bg-red">精选</div>
+              <span class="red">猜你喜欢</span>
+            </li>
+            <li>
+              <div class="head">智能先锋</div>
+              <span>大电器械</span>
+            </li>
+            <li>
+              <div class="head">居家优品</div>
+              <span>品质生活</span>
+            </li>
+            <li>
+              <div class="head">超市百货</div>
+              <span>百货生鲜 </span>
+            </li>
+            <li>
+              <div class="head">时尚达人</div>
+              <span>美妆穿搭</span>
+            </li>
+            <li>
+              <div class="head">进口好物</div>
+              <span>乐购国际</span>
+            </li>
+          </ul>
+        </div>
+        <div class="recom-bd">
+          <ul>
+            <li>
+              <a
+                href="#"
+                title="迪伽达重磅加绒连帽卫衣男22秋冬季新款青少年学生美式复古情侣外套BNGYL-211黑色加绒 XL"
+                ><img src="img/recom1.webp" alt="" />
+                <div class="info">
+                  迪伽达
+                  重磅加绒连帽卫衣男22秋冬季新款青少年学生美式复古情侣外套
+                  BNGYL-211黑色加绒 XL
+                </div>
+                <div class="price">￥69</div></a
+              >
+            </li>
+            <li>
+              <a
+                href="#"
+                title="摩动核【预约】摩动核星甲魂将传地阔星花刀将龙且 2023年2月底发货 龙且合金版，盒控勿拍"
+                ><img src="img/recom2.webp" alt="" />
+                <div class="info">
+                  摩动核【预约】摩动核星甲魂将传地阔星花刀将龙且 2023年2月底发货
+                  龙且合金版，盒控勿拍
+                </div>
+                <div class="price">￥1499.00</div></a
+              >
+            </li>
+            <li>
+              <a
+                href="#"
+                title="Apple iPhone 14 Pro Max (A2896) 256GB 暗紫色 支持移动联通电信5G 双卡双待手机【大王卡】 "
+                ><img src="img/recom3.jpg" alt="" />
+                <div class="info">
+                  Apple iPhone 14 Pro Max (A2896) 256GB 暗紫色
+                  支持移动联通电信5G 双卡双待手机【大王卡】
+                </div>
+                <div class="price">￥9819.00</div></a
+              >
+            </li>
+            <li>
+              <a
+                href="#"
+                title="折叠床垫定制折叠床垫床垫加厚1.5米床垫子双人1.8米家用宿舍榻榻米床垫打地铺褥子 针织直-约10cm 1.5x1.9cm 米【床】 "
+                ><img src="img/recom4.webp" alt="" />
+                <div class="info">
+                  折叠床垫定制折叠床垫床垫加厚1.5米床垫子双人1.8米家用宿舍榻榻米床垫打地铺褥子
+                  针织直-约10cm 1.5x1.9cm 米【床】
+                </div>
+                <div class="price">￥198.00</div></a
+              >
+            </li>
+            <li>
+              <a
+                href="#"
+                title="Apple MacBook Pro 13英寸 M2 芯片(8核中央处理器 10核图形处理器) 16G 512G 深空灰 笔记本Z16S【定制机】 "
+                ><img src="img/recom5.jpg" alt="" />
+                <div class="info">
+                  Apple MacBook Pro 13英寸 M2 芯片(8核中央处理器 10核图形处理器)
+                  16G 512G 深空灰 笔记本Z16S【定制机】
+                </div>
+                <div class="price">￥12988.00</div></a
+              >
+            </li>
+            <li>
+              <a
+                href="#"
+                title="BANDAI 预售 第二批 PB 万代模型 HG 1/144 高达 L.O.Booster"
+                ><img src="img/recom7.webp" alt="" />
+                <div class="info">
+                  BANDAI 预售 第二批 PB 万代模型 HG 1/144 高达 L.O.Booster
+                </div>
+                <div class="price">￥270.00</div></a
+              >
+            </li>
+            <li>
+              <a
+                href="#"
+                title="蒂卡登棒球服外套男秋冬季休闲夹克港风潮流宽松学院风加绒加厚上衣服 白色 XL（建议130斤-145斤）"
+                ><img src="img/recom6.webp" alt="" />
+                <div class="info">
+                  蒂卡登棒球服外套男秋冬季休闲夹克港风潮流宽松学院风加绒加厚上衣服
+                  白色 XL（建议130斤-145斤）
+                </div>
+                <div class="price">￥118.00</div></a
+              >
+            </li>
+            <li>
+              <a
+                href="#"
+                title="乐高（LEGO）积木 超级英雄 76209 雷神之锤 18+ 玩具 漫威复联 圣诞礼物"
+                ><img src="img/recom8.jpg" alt="" />
+                <div class="info">
+                  乐高（LEGO）积木 超级英雄 76209 雷神之锤 18+ 玩具 漫威复联
+                  圣诞礼物
+                </div>
+                <div class="price">￥1079.00</div></a
+              >
+            </li>
+            <li>
+              <a
+                href="#"
+                title="unifree 一次性3D立体口罩含熔喷布3层防护防尘男女成人口罩 30片/盒 大童可用"
+                ><img src="img/recom9.webp" alt="" />
+                <div class="info">
+                  unifree 一次性3D立体口罩含熔喷布3层防护防尘男女成人口罩
+                  30片/盒 大童可用
+                </div>
+                <div class="price">￥29.90</div></a
+              >
+            </li>
+            <li>
+              <a
+                href="#"
+                title="AOLANLA 美国钻石型便携式粉底刷柔软不吃粉专业美妆扁平魔术无痕底妆化妆刷生日礼物送女友 钻石形粉底刷"
+                ><img src="img/recom10.jpg" alt="" />
+                <div class="info">
+                  AOLANLA
+                  美国钻石型便携式粉底刷柔软不吃粉专业美妆扁平魔术无痕底妆化妆刷生日礼物送女友
+                  钻石形粉底刷
+                </div>
+                <div class="price">￥98.00</div></a
+              >
+            </li>
+            <li>
+              <a
+                href="#"
+                title="新品龙牙战隼战术裤加强版户外工装裤男休闲裤修身百搭铁血君品 极夜黑 175/84B（高175重145-165斤）"
+                ><img src="img/recom12.jpg" alt="" />
+                <div class="info">
+                  新品龙牙战隼战术裤加强版户外工装裤男休闲裤修身百搭铁血君品
+                  极夜黑 175/84B（高175重145-165斤）
+                </div>
+                <div class="price">￥299.00</div></a
+              >
+            </li>
+            <li>
+              <a
+                href="#"
+                title="WS snowboardsWS单板滑雪鞋 单板鞋 全能全地域单板滑雪靴 男女通用滑雪鞋子 浅灰色 42码"
+                ><img src="img/recom11.jpg" alt="" />
+                <div class="info">
+                  WS snowboardsWS单板滑雪鞋 单板鞋 全能全地域单板滑雪靴
+                  男女通用滑雪鞋子 浅灰色 42码
+                </div>
+                <div class="price">￥599.00</div></a
+              >
+            </li>
+            <li>
+              <a
+                href="#"
+                title="诗美洛 两世欢银手链女莲蓬莲花足银手串小清新可伸缩银手镯手环送女友生日礼物 8.5±1克5N亮面两世欢银手链"
+                ><img src="img/recom13.jpg" alt="" />
+                <div class="info">
+                  诗美洛
+                  两世欢银手链女莲蓬莲花足银手串小清新可伸缩银手镯手环送女友生日礼物
+                  8.5±1克5N亮面两世欢银手链
+                </div>
+                <div class="price">￥129.00</div></a
+              >
+            </li>
+            <li>
+              <a
+                href="#"
+                title=" 乐益 (leeioo)车载手机支架汽车通用手机导航支架重力感应吸盘粘黏中控台金属手机支架如意折叠款【商务黑】"
+                ><img src="img/recom14.jpg" alt="" />
+                <div class="info">
+                  乐益
+                  (leeioo)车载手机支架汽车通用手机导航支架重力感应吸盘粘黏中控台金属手机支架如意折叠款【商务黑】
+                </div>
+                <div class="price">￥39.80</div></a
+              >
+            </li>
+            <li>
+              <a href="#" title="茅台 飞天 43%vol 500ml 贵州茅台酒（带杯）"
+                ><img src="img/recom15.jpg" alt="" />
+                <div class="info">
+                  茅台 飞天 43%vol 500ml 贵州茅台酒（带杯）
+                </div>
+                <div class="price">￥1199.00</div></a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <!-- 底部模块footer start -->
+    <footer class="footer">
+      <div class="w">
+        <div class="mod_service">
+          <ul>
+            <li>
+              <h5 class="mod_service_duo">多</h5>
+              <p>品类齐全，轻松购物</p>
+            </li>
+            <li>
+              <h5 class="mod_service_kuai">快</h5>
+              <p>多仓直发，急速配送</p>
+            </li>
+            <li>
+              <h5 class="mod_service_hao">好</h5>
+              <p>正品行货，精致服务</p>
+            </li>
+            <li>
+              <h5 class="mod_service_sheng">省</h5>
+              <p>天天低价，畅选无优</p>
+            </li>
+          </ul>
+        </div>
+        <div class="mod_help">
+          <dl>
+            <dt>服务指南</dt>
+            <dd><a href="#">购物流程</a></dd>
+            <dd><a href="#">会员介绍</a></dd>
+            <dd><a href="#">生活旅行/团购</a></dd>
+            <dd><a href="#">常见问题</a></dd>
+            <dd><a href="#">大家电</a></dd>
+            <dd><a href="#">联系客服</a></dd>
+          </dl>
+          <dl>
+            <dt>配送方式</dt>
+            <dd><a href="#">上门自提</a></dd>
+            <dd><a href="#">211限时达</a></dd>
+            <dd><a href="#">配送服务查询</a></dd>
+            <dd><a href="#">配送费收取标准</a></dd>
+          </dl>
+          <dl>
+            <dt>支付方式</dt>
+            <dd><a href="#">货到付款</a></dd>
+            <dd><a href="#">在线支付</a></dd>
+            <dd><a href="#">分期付款</a></dd>
+            <dd><a href="#">邮局汇款</a></dd>
+            <dd><a href="#">公司转账</a></dd>
+          </dl>
+          <dl>
+            <dt>售后服务</dt>
+            <dd><a href="#">售后政策</a></dd>
+            <dd><a href="#">价格保护</a></dd>
+            <dd><a href="#">退款说明</a></dd>
+            <dd><a href="#">常见问题</a></dd>
+            <dd><a href="#">返修/退换货</a></dd>
+            <dd><a href="#">取消订单</a></dd>
+          </dl>
+          <dl>
+            <dt>特色服务</dt>
+            <dd><a href="#">夺宝岛</a></dd>
+            <dd><a href="#">DIY装机</a></dd>
+            <dd><a href="#">延保服务</a></dd>
+            <dd><a href="#">乐购E卡</a></dd>
+            <dd><a href="#">乐购通信</a></dd>
+            <dd><a href="#">乐鱼座智能</a></dd>
+          </dl>
+        </div>
+        <div class="mod_copyright">
+          <div class="links">
+            <a href="#">关于我们</a> |<a href="#">联系我们</a> |
+            <a href="#">联系我们</a> | <a href="#">合作招商</a> |
+            <a href="#">商家帮助</a> | <a href="#">营销中心</a> |
+            <a href="#">手机乐购</a> | <a href="#">友情链接</a> |
+            <a href="#">销售联盟</a> | <a href="#">风险监测</a> |
+            <a href="#">隐私政策</a> | <a href="#">乐购公益</a>
+          </div>
+          <div class="copyright">
+            京公网安备 11000002000088号| 京ICP备11041704号|
+            网络文化经营许可证京网文[2020]6112-1201号
+            <br />
+            互联网药品信息服务资格证编号(京)-经营性-2014-0008|
+            京ICP备08001421号京公网安备110108007702
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- 底部模块footer end -->
+  </body>
+</html>

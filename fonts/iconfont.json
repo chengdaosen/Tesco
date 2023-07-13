@@ -1,0 +1,23 @@
+{
+  "id": "3826853",
+  "name": "Tesco",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "33390115",
+      "name": "购物车_shopping",
+      "font_class": "gouwuche_shopping",
+      "unicode": "e620",
+      "unicode_decimal": 58912
+    },
+    {
+      "icon_id": "33390131",
+      "name": "搜索_search",
+      "font_class": "sousuo_search",
+      "unicode": "e622",
+      "unicode_decimal": 58914
+    }
+  ]
+}

@@ -1,0 +1,130 @@
+.w {
+  width: 1200px;
+  margin: 0 auto;
+}
+/* 头部模块start */
+/* body {
+  background-image: url(../img/shopping.jpg);
+  background: rgba(0, 0, 0, 0.2);
+  background-size: 100% 100%;
+} */
+.head {
+  width: 100%;
+  height: 150px;
+  box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.2);
+  background-color: #fff;
+}
+.head .w {
+  position: relative;
+}
+.logo {
+  position: absolute;
+  top: 30px;
+  left: 40px;
+  margin-top: 25px;
+  margin-left: 30px;
+  height: 60px;
+  width: 170px;
+}
+
+.logo a {
+  display: block;
+  width: 176px;
+  height: 64px;
+  font-size: 0;
+}
+.logo img {
+  width: 100%;
+  height: 100%;
+}
+.logo-title {
+  position: absolute;
+  font-size: 20px;
+  width: 100px;
+  height: 50px;
+  left: 272px;
+  top: 75px;
+  color: #333;
+}
+.red {
+  color: red;
+}
+.have {
+  position: absolute;
+  font-size: 20px;
+  right: 200px;
+  top: 90px;
+  width: 200px;
+  height: 50px;
+}
+.have a::after {
+  position: absolute;
+  content: '';
+  width: 7px;
+  height: 7px;
+  border-right: 3px solid rgb(255, 0, 0);
+  border-bottom: 3px solid rgb(255, 0, 0);
+  left: 170px;
+  top: 11px;
+  transform: rotate(-45deg);
+}
+.container {
+  width: 600px;
+  margin: 50px auto;
+}
+.container form {
+  width: 400px;
+  margin: 0 auto;
+}
+.container ul li {
+  margin-bottom: 20px;
+}
+.container ul li label {
+  display: inline-block;
+  width: 88px;
+  text-align: right;
+}
+.container ul li .inp {
+  width: 242px;
+  height: 37px;
+  border: 1px solid #ccc;
+}
+.agree {
+  padding-left: 95px;
+}
+.agree input {
+  vertical-align: middle;
+}
+.agree a {
+  color: #1ba1e6;
+}
+.btn {
+  width: 200px;
+  height: 34px;
+  background-color: #c81623;
+  font-size: 14px;
+  color: #fff;
+  margin: 30px 0 0 100px;
+}
+.footer {
+  margin-top: 200px;
+  width: 100%;
+  height: 100px;
+  background-color: #fff;
+}
+.footer ul {
+  width: 900px;
+  margin: 0 auto;
+  /* display: flex;
+  justify-content: space-around; */
+}
+.footer ul li {
+  float: left;
+  padding: 0 30px;
+}
+.footer .banquan {
+  padding-top: 40px;
+  width: 270px;
+  height: 20px;
+  margin: 0 auto;
+}
